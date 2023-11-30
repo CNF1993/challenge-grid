@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-container: #0d1323;
+    --bg-user-card-front: #5746ea;
+    --bg-user-card-back: #1d204b;
+    --bg-front: #1d204b;
+    --bg-back-1: #ff8b64;
+    --bg-back-2: #56c2e6;
+    --bg-back-3: #ff5e7d;
+    --bg-back-4: #4bcf83;
+    --bg-back-5: #7235d1;
+    --bg-back-6: #f1c75b;
+    --font-color-white:  #cecdeb;
+    --font-color-grey: #60639f;
+}
