@@ -92,14 +92,17 @@ span {
 }
 
 .back {
+    position: relative;
     display: flex;
     flex-flow: column wrap;
     justify-content: end;
+    overflow: hidden;
 }
 
 .front {
-    height: 85%;
+    height: 83%;
     background: var(--bg-front);
+    z-index: 10;
 }
 
 .back-1 {
@@ -108,10 +111,32 @@ span {
     background: var(--bg-back-1);
 }
 
+.back-1 .icon {
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    background-image: url(/images/icon-work.svg);
+    background-position: center;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+}
+
 .back-2 {
     grid-column: 3/4;
     grid-row: 1/2;
     background: var(--bg-back-2);
+}
+
+.back-2 .icon {
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    background-image: url(/images/icon-play.svg);
+    background-position: center;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
 }
 
 .back-3 {
@@ -120,10 +145,32 @@ span {
     background: var(--bg-back-3);
 }
 
+.back-3 .icon {
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    background-image: url(/images/icon-study.svg);
+    background-position: center;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+}
+
 .back-4 {
     grid-column: 2/3;
     grid-row: 2/3;
     background: var(--bg-back-4);
+}
+
+.back-4 .icon {
+    position: absolute;
+    top: -1px;
+    right: 8px;
+    background-image: url(/images/icon-exercise.svg);
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 30px;
 }
 
 .back-5 {
@@ -132,8 +179,30 @@ span {
     background: var(--bg-back-5);
 }
 
+.back-5 .icon {
+    position: absolute;
+    top: -2px;
+    right: 8px;
+    background-image: url(/images/icon-social.svg);
+    background-position: center;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
 .back-6 {
     grid-column: 4/5;
     grid-row: 2/3;
     background: var(--bg-back-6);
+}
+
+.back-6 .icon {
+    position: absolute;
+    top: -4px;
+    right: 8px;
+    background-image: url(/images/icon-self-care.svg);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
 }
