@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,15 +26,54 @@
     height: 100vh;
     background: var(--bg-container);
     display: grid;
-    grid-template-columns: repeat(4, 120px);
+    grid-template-columns: repeat(4, 130px);
     grid-auto-rows: 130px;
     gap: 1rem;
     place-content: center;
 }
 
+.user-card, .user-card-back, .user-card-front, .back, .front {
+    border-radius: .5rem;
+}
+
 .user-card {
     grid-column: 1/2;
     grid-row: 1/3;
+    background: var(--bg-user-card-back)
+}
+
+.user-card-front {
+    width: 100%;
+    height: 70%;
+    background: var(--bg-user-card-front);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.img {
+    background-image: url(/images/image-jeremy.png);
+    background-position: center;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.user-card-back {
+    width: 100%;
+    height: 30%;
+}
+
+.back {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+}
+
+.front {
+    height: 85%;
+    background: var(--bg-front);
 }
 
 .back-1 {
