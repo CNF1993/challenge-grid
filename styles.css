@@ -69,7 +69,6 @@
 
 h1 {
     font-size: 1.3rem;
-    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 300;
 }
 
@@ -142,8 +141,11 @@ button:hover {
     color: var(--font-color-white);
 }
 
+button:active {
+    transform: scale(1.1);
+}
+
 .front h3 {
-    /* font-family: 'Montserrat', sans-serif; */
     font-size: 1.7rem;
     font-weight: 300;
     margin-bottom: .2rem;
