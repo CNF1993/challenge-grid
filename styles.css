@@ -88,6 +88,12 @@ span {
 .user-card-back p {
     font-size: .6rem;
     color: var(--font-color-grey);
+    cursor: pointer;
+    
+}
+
+.user-card-back p:hover {
+    color: var(--font-color-white);
     
 }
 
@@ -101,7 +107,7 @@ span {
 
 .front {
     position: relative;
-    height: 83%;
+    height: 82%;
     background: var(--bg-front);
     z-index: 10;
     display: flex;
@@ -123,6 +129,11 @@ button {
     border: none;
     font-weight:400;
     color: var(--font-color-grey);
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--font-color-white);
 }
 
 .front h3 {
@@ -201,7 +212,7 @@ button {
     background-image: url(/images/icon-exercise.svg);
     background-position: center;
     background-size: cover;
-    width: 40px;
+    width: 43px;
     height: 30px;
 }
 
