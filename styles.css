@@ -67,7 +67,7 @@
 
 h1 {
     font-size: 1.3rem;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 300;
 }
 
@@ -100,9 +100,41 @@ span {
 }
 
 .front {
+    position: relative;
     height: 83%;
     background: var(--bg-front);
     z-index: 10;
+    display: flex;
+    flex-flow: column;
+    padding: 1.1rem;
+}
+
+.front h2 {
+    font-size: .6rem;
+    margin-top: -1px;
+    margin-bottom: .8rem;
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-weight:400;
+    color: var(--font-color-grey);
+}
+
+.front h3 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: .2rem;
+}
+
+.front p {
+    font-size: .5rem;
+    color: var(--font-color-grey);
 }
 
 .back-1 {
