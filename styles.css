@@ -7,6 +7,7 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     color: var(--font-color-white);
+    transition: all .2s ease;
 }
 
 :root {
@@ -14,6 +15,7 @@
     --bg-user-card-front: #5746ea;
     --bg-user-card-back: #1d204b;
     --bg-front: #1d204b;
+    --bg-front-active: #34397b;
     --bg-back-1: #ff8b64;
     --bg-back-2: #56c2e6;
     --bg-back-3: #ff5e7d;
@@ -94,7 +96,6 @@ span {
 
 .user-card-back p:hover {
     color: var(--font-color-white);
-    
 }
 
 .back {
@@ -113,6 +114,11 @@ span {
     display: flex;
     flex-flow: column;
     padding: 1.1rem;
+    cursor: pointer;
+}
+
+.front:hover {
+    background: var(--bg-front-active);
 }
 
 .front h2 {
