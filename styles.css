@@ -258,13 +258,13 @@ button:active {
     height: 30px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     
     .container {
         height: 100%;
         grid-template-columns: 200px;
-        grid-template-rows: repeat(7, 125px);
-        padding: 1rem;
+        grid-template-rows: 125px 100px 100px 100px 100px 100px 100px;
+        padding: 5rem;
     }
 
     .user-card, .back:nth-child(even), .back:nth-child(odd) {
@@ -300,9 +300,41 @@ button:active {
         height: 35%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         padding-left: 0;
     }
 
+    .user-card-back p:nth-child(2) {
+        margin-left: .6rem;
+    }
+
+    .front {
+        height: 75%;
+        flex-flow: column wrap;
+        padding: 1.1rem 1rem .1rem 1rem;
+    }
+    
+    .front h2 {
+        font-size: .6rem;
+        margin-top: -2px;
+        margin-bottom: .3rem;
+    }
+    
+    button {
+        top: 8px;
+        right: 16px;
+        font-size: 1rem;
+    }
+    
+    .front h3 {
+        font-size: 1.5rem;
+        margin-bottom: .1rem;
+    }
+    
+    .front p {
+        align-self: flex-end;
+        margin-top: 1.71rem;
+    }
+    
 }
