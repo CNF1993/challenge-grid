@@ -208,7 +208,7 @@ button:hover {
 .back-4 {
     grid-column: 2/3;
     grid-row: 2/3;
-    background: var(--bg-back-4);
+    background: linear-gradient(180deg, var(--bg-back-4) 50%, var(--bg-front)50%, var(--bg-front) 100%);
 }
 
 .back-4 .icon {
