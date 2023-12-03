@@ -24,6 +24,7 @@
     --bg-back-6: #f1c75b;
     --font-color-white:  #f6f8f9;
     --font-color-grey: #b7baf0;
+    --font-color-blue: #7d81c7;
 }
 
 .container {
@@ -88,7 +89,7 @@ span {
 
 .user-card-back p {
     font-size: .6rem;
-    color: var(--font-color-grey);
+    color: var(--font-color-blue);
     cursor: pointer;
     
 }
